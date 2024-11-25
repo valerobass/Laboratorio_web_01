@@ -8,7 +8,7 @@ cp -v /vagrant/apolo.olimpo.test.conf /etc/apache2/sites-available
 #
 
 # tu código aquí
-cp -v /vagrant/files/apolo.olimpo.test/apolo.html /var/www/apolo.olimpo.test
+cp -v /vagrant/files/apolo.olimpo.test/apolo2.html /var/www/apolo.olimpo.test
 cp -v /vagrant/files/apolo.olimpo.test/apolo1.txt /var/www/apolo.olimpo.test
 cp -v /vagrant/files/apolo.olimpo.test/apolo2.txt /var/www/apolo.olimpo.test
 cp -v /vagrant/files/apolo.olimpo.test/apolo.olimpo.test.conf /etc/apache2/sites-available
