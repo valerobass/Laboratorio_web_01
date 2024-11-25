@@ -12,6 +12,9 @@ cp -v /vagrant/files/apolo.olimpo.test/apolo.html /var/www/apolo.olimpo.test
 cp -v /vagrant/files/apolo.olimpo.test/apolo1.txt /var/www/apolo.olimpo.test
 cp -v /vagrant/files/apolo.olimpo.test/apolo2.txt /var/www/apolo.olimpo.test
 cp -v /vagrant/files/apolo.olimpo.test/apolo.olimpo.test.conf /etc/apache2/sites-available
+sudo a2dissite 000-default.conf 
+sudo a2ensite apolo.olimpo.test.conf
+
 
 #
 # Habilitar los servidores virtuales
